@@ -1,0 +1,129 @@
+{
+  "project": {
+    "name": "PCOS Unlocked",
+    "tagline": "Understand your body. Question the myths. Find your way forward.",
+    "status": "working_name_recommended",
+    "primary_term": "PCOS",
+    "market_context": "India",
+    "primary_audience": "Young women aged 18–25",
+    "secondary_audiences": [
+      "Under 18",
+      "26–30",
+      "31–35",
+      "Above 35",
+      "Male allies, friends, partners and family"
+    ]
+  },
+  "age_groups": [
+    "Under 18",
+    "18–21",
+    "22–25",
+    "26–30",
+    "31–35",
+    "Above 35"
+  ],
+  "pathways": [
+    {
+      "id": "shared",
+      "label": "Explore everything",
+      "purpose": "Shared body literacy and PCOS education"
+    },
+    {
+      "id": "female",
+      "label": "Female learning path",
+      "purpose": "Experiences, menstrual and reproductive health, diagnosis, care and wellbeing"
+    },
+    {
+      "id": "ally",
+      "label": "Male ally path",
+      "purpose": "Understand PCOS, challenge myths and support someone respectfully"
+    }
+  ],
+  "navigation": [
+    "Know Your Body",
+    "Understand PCOS",
+    "Learn & Explore",
+    "Find Support",
+    "About"
+  ],
+  "routes": [
+    "/",
+    "/start",
+    "/know-your-body",
+    "/know-your-body/anatomy",
+    "/know-your-body/menstrual-cycle",
+    "/know-your-body/hormones",
+    "/know-your-body/metabolism",
+    "/pcos",
+    "/pcos/features",
+    "/pcos/diagnosis",
+    "/pcos/health",
+    "/pcos/management",
+    "/pathways/women",
+    "/pathways/women/experiences",
+    "/pathways/women/wellbeing",
+    "/pathways/allies",
+    "/pathways/allies/support",
+    "/explore",
+    "/explore/myths",
+    "/explore/quiz",
+    "/explore/faqs",
+    "/support",
+    "/support/when-to-seek-help",
+    "/support/appointment",
+    "/support/resources",
+    "/about",
+    "/about/sources",
+    "/about/accessibility",
+    "/about/privacy"
+  ],
+  "design": {
+    "direction": "Contemporary editorial health education; clear, calm, inclusive, scientifically grounded",
+    "colors": {
+      "plum": "#39243F",
+      "lilac": "#EAE3F0",
+      "coral": "#E98978",
+      "sage": "#A9BBA5",
+      "cream": "#FAF7F2",
+      "ink": "#242126",
+      "white": "#FFFFFF"
+    },
+    "illustration": "Original labelled vector diagrams with text alternatives"
+  },
+  "features": [
+    "Responsive multi-page navigation",
+    "Optional age adaptation",
+    "Switchable learning pathways",
+    "Interactive anatomy and hormone diagrams",
+    "Menstrual cycle explainer",
+    "Insulin and metabolism explainer",
+    "Myth versus fact interaction",
+    "Educational quiz",
+    "Search",
+    "FAQs",
+    "Appointment preparation and print",
+    "Sources and review dates",
+    "Accessibility and privacy pages"
+  ],
+  "safety": {
+    "educational_only": true,
+    "diagnosis_tool": false,
+    "symptom_tracker": false,
+    "cycle_tracker": false,
+    "sensitive_health_data_collection": false,
+    "male_path_is_ally_education_only": true,
+    "disclaimer": "PCOS Unlocked is an educational resource. It does not provide a diagnosis or replace advice from a qualified healthcare professional."
+  },
+  "data_policy": {
+    "pcos_dataset.csv": "1000 rows x 6 columns; clinical-style fields; provenance and representativeness unverified",
+    "Cleaned-Data.csv": "173 rows x 36 columns; mixed health/lifestyle fields; ambiguous self-report and free-text categories",
+    "limitations": [
+      "Neither supplied CSV contains gender or direct awareness questions",
+      "Do not infer gender or diagnosis",
+      "Do not make population prevalence or causal claims",
+      "Do not publish individual records"
+    ]
+  },
+  "master_prompt_file": "Google_AI_Studio_Master_Prompt.md",
+  "dossier_file": "PCOS_Unlocked_Complete_Dossier.md"
+}

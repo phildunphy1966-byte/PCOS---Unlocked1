@@ -1,0 +1,74 @@
+{
+  "site_name": "PCOS Unlocked",
+  "tagline": "Understand your body. Question the myths. Find your way forward.",
+  "home": {
+    "headline": "Your body deserves clear answers.",
+    "subheading": "Explore PCOS, hormones and reproductive health through clear explanations, interactive visuals and myth-busting guides.",
+    "primary_ctas": [
+      {
+        "label": "Explore PCOS",
+        "href": "/pcos"
+      },
+      {
+        "label": "Choose your learning route",
+        "href": "/start"
+      }
+    ],
+    "secondary_ctas": [
+      {
+        "label": "Know Your Body",
+        "href": "/know-your-body"
+      },
+      {
+        "label": "Support someone",
+        "href": "/pathways/allies"
+      }
+    ]
+  },
+  "myths": [
+    {
+      "claim": "PCOS is only an ovarian problem.",
+      "answer": "False / incomplete",
+      "explanation": "PCOS is a complex condition involving reproductive, hormonal and metabolic features."
+    },
+    {
+      "claim": "Everyone with PCOS has ovarian cysts.",
+      "answer": "False",
+      "explanation": "The name can be misleading; not everyone with PCOS has this ultrasound feature."
+    },
+    {
+      "claim": "Only people with larger bodies have PCOS.",
+      "answer": "False",
+      "explanation": "PCOS occurs across body sizes."
+    },
+    {
+      "claim": "PCOS means someone cannot become pregnant.",
+      "answer": "False",
+      "explanation": "Fertility experiences vary; many people with PCOS can conceive, sometimes with support."
+    },
+    {
+      "claim": "Lifestyle alone cures PCOS.",
+      "answer": "False",
+      "explanation": "Management is individualised; there is no universal cure."
+    },
+    {
+      "claim": "Pads, tampons or menstrual cups cause PCOS.",
+      "answer": "No established evidence supports this claim",
+      "explanation": "Menstrual products are not an established cause of PCOS."
+    },
+    {
+      "claim": "A person can diagnose PCOS from symptoms online.",
+      "answer": "False",
+      "explanation": "Symptoms overlap with other conditions and clinical assessment is required."
+    }
+  ],
+  "appointment_prompts": [
+    "What changes have I noticed, and when did they begin?",
+    "How have my cycles changed, if relevant?",
+    "Which symptoms affect daily life?",
+    "What tests or other causes might need consideration?",
+    "What are the benefits, risks and alternatives of proposed treatments?",
+    "What follow-up is recommended?"
+  ],
+  "disclaimer": "PCOS Unlocked is an educational resource. It does not provide a diagnosis or replace advice from a qualified healthcare professional."
+}
